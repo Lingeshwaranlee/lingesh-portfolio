@@ -6,7 +6,9 @@ import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.jpeg";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
+import zen from "../../Assets/zen.png";
+import zen1 from "../../Assets/zen1.png";
+import zen2 from "../../Assets/zen2.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
@@ -23,7 +25,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
         <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={zen}
               isBlog={false}
               title="ZEN DASHBOARD📑"
               description="A website built for the students which highlights the data related to the course and keeps an track of the learner's performance and this website is build with react.js, Material-UI, Bootstrap, FontAwesome "
@@ -32,7 +34,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={zen1}
               isBlog={false}
               title="CARZEY🚗"
               description="A simple E-commerce Car website  build with react.js, Material-UI, Bootstrap, FontAwesome  to share the information for all top brands in a single website"
@@ -41,10 +43,10 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={zen2}
               isBlog={false}
               title="BUGGII🍔"
-              description="A simple E-commerce burger  website  build with react.js, Material-UI, Bootstrap, FontAwesome   to order some spicy burger from buggi app and this app is user friendly to every one  website"
+              description="A simple E-commerce burger  website  build with react.js, Material-UI, Bootstrap, FontAwesome   to order some spicy burger from buggi app A large hamburger called the Whopper is Buggii's signature product. "
               link="https://github.com/Lingeshwaranlee/projectagni2"
             />
           </Col>
