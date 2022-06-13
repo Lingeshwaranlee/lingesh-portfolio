@@ -8,7 +8,7 @@ export function Type() {
         strings: [
           "Developer",
           "Deep Learning Engineer",
-          "MERN Stack Developer",
+          "Front End Developer",
           "Open Source Contributor",
         ],
         autoStart: true,
