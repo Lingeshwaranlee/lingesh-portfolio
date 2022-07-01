@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import zen from "../../Assets/zen.png";
 import zen1 from "../../Assets/zen1.png";
 import zen2 from "../../Assets/zen2.png";
-
+import zen3 from "../../Assets/zen3.png";
 
 function Projects() {
   return (
@@ -44,6 +44,15 @@ function Projects() {
               title="BUGGII🍔"
               description="A simple E-commerce burger  website  build with react.js, Material-UI, Bootstrap, FontAwesome   to order some spicy burger from buggi app A large hamburger called the Whopper is Buggii's signature product. "
               link="https://github.com/Lingeshwaranlee/projectagni2"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={zen3}
+              isBlog={false}
+              title="ROLEX "
+              description="A simple E-commerce burger  website  build with react.js, Material-UI, Bootstrap, FontAwesome to Buy some brand new Rolex watches."
+              link="https://github.com/Lingeshwaranlee/rolex"
             />
           </Col>
 

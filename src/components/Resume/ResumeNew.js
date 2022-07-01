@@ -4,6 +4,7 @@ import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import logo1 from "../../Assets/lingesh-1.png";
 import logo2 from "../../Assets/lingesh-2.png";
+import logo3 from "../../Assets/lingesh-3.png";
 import pdf from "../../Assets/../Assets/lingeshwaran.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
@@ -11,7 +12,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://github.com/Lingeshwaranlee/lingesh-portfolio/blob/master/src/Assets/lingeshwaran%20pdf.pdf";
+  "https://github.com/Lingeshwaranlee/resume/blob/main/LINGESH-RESUME%20(1).pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
@@ -37,7 +38,8 @@ function ResumeNew() {
         </Row>
 <Row>
 <img src={logo1} style={{width:"70%",marginLeft:"17%",marginTop:"2%",marginBottom:"2%"}} alt="Logo" />
-<img src={logo2} style={{width:"70%",marginLeft:"17%",marginTop:"2%",marginBottom:"2%"}} alt="Logo" />;
+<img src={logo2} style={{width:"70%",marginLeft:"17%",marginTop:"2%",marginBottom:"2%"}} alt="Logo" />
+<img src={logo3} style={{width:"70%",marginLeft:"17%",marginTop:"2%",marginBottom:"2%"}} alt="Logo" />;
 </Row>
         
 
