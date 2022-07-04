@@ -25,7 +25,7 @@ function Projects() {
               isBlog={false}
               title="ZEN DASHBOARD📑"
               description="A website built for the students which highlights the data related to the course and keeps an track of the learner's performance and this website is build with react.js, Material-UI, Bootstrap, FontAwesome "
-              link="https://github.com/Lingeshwaranlee/lingeshcapstone"
+              link="https://glowing-creponne-2b1dc0.netlify.app"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -34,7 +34,7 @@ function Projects() {
               isBlog={false}
               title="CARZEY🚗"
               description="A simple E-commerce Car website  build with react.js, Material-UI, Bootstrap, FontAwesome  to share the information for all top brands in a single website"
-              link="https://github.com/Lingeshwaranlee/zencarapp"
+              link="https://gleaming-torrone-c015d5.netlify.app"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -43,7 +43,7 @@ function Projects() {
               isBlog={false}
               title="BUGGII🍔"
               description="A simple E-commerce burger  website  build with react.js, Material-UI, Bootstrap, FontAwesome   to order some spicy burger from buggi app A large hamburger called the Whopper is Buggii's signature product. "
-              link="https://github.com/Lingeshwaranlee/projectagni2"
+              link="https://brilliant-croissant-0d068e.netlify.app/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -52,7 +52,7 @@ function Projects() {
               isBlog={false}
               title="ROLEX "
               description="A simple E-commerce burger  website  build with react.js, Material-UI, Bootstrap, FontAwesome to Buy some brand new Rolex watches."
-              link="https://github.com/Lingeshwaranlee/rolex"
+              link="https://cosmic-seahorse-53531c.netlify.app/"
             />
           </Col>
 
