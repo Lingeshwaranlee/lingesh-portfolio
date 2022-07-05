@@ -12,7 +12,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://github.com/Lingeshwaranlee/lingesh-portfolio/blob/master/src/Assets/lingeshwaran%20pdf.pdf";
+  "https://drive.google.com/file/d/1SnmSb9UimGoPxIv_j54uxJKKnS6IlFVf/view?usp=sharing";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
