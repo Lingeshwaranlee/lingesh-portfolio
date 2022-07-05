@@ -76,26 +76,7 @@ function Home2() {
                 </a>
               </li>
              
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/lingeshwaran-senthil-498975189"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/lingesh_marley/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
-                </a>
-              </li>
+              
             </ul>
           </Col>
         </Row>

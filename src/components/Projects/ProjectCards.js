@@ -16,6 +16,10 @@ function ProjectCards(props) {
           <BiLinkExternal /> &nbsp;
           {props.isBlog ? "View Blog" : "View Project"}
         </Button>
+        <Button variant="primary" href={props.link1} target="_blank" style={{marginLeft:"20px"}}>
+        <BiLinkExternal /> &nbsp;
+          {props.isBlog ? "View Blog" : "View Code"}
+        </Button>
       </Card.Body>
     </Card>
   );
